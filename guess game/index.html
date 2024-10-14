@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess game</title>
+</head>
+<style>
+    body{
+        min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+        font-family: sans-serif;
+    }
+    .guessbox{
+        width: 300px;
+        height: auto;
+        padding: 20px;
+        box-shadow: 10px 10px 30px rgba(0,0,0,0.5);
+     
+
+     
+    }
+    .guessbox.hidden{
+        display: none;
+    }
+    .guessbox h2{
+font-size: 1.2rem;
+    }
+    .guessbox input{
+        width: 90%;
+        padding: 10px ;
+        font-size: 2rem;
+    /* outline: none; */
+    }
+    .guessbox .btn{
+        display: block;
+     padding: 10px 30px;
+     border-radius: 6px;
+     font-size: 1rem;
+     color: #fff ;
+     border: none;
+     letter-spacing: 1px;
+     background: darkblue;
+     cursor: pointer;
+     margin: 10px auto;
+
+    }
+    .guessbox .btn:hover{
+ 
+     background: rgb(44, 44, 238);
+  
+
+    }
+    .resultbox{
+        width: 300px;
+        height: auto;
+        padding: 20px;
+        box-shadow: 10px 10px 30px rgba(0,0,0,0.5);
+
+    }
+    .resultbox.hidden{
+        display: none;
+    }
+    .resultbox .message{
+        font-size: 2rem;
+        width: 100%;
+        text-transform: capitalize;
+    }
+    .resultbox .replay{
+        display: block;
+     padding: 10px 30px;
+     border-radius: 6px;
+     font-size: 1rem;
+     color: #fff ;
+     border: none;
+     letter-spacing: 1px;
+     background: darkblue;
+     cursor: pointer;
+     margin: 10px auto;
+    }
+    .resultbox .btn:hover{
+ 
+ background: rgb(44, 44, 238);
+
+
+}
+</style>
+<body>
+<p class="try"></p>
+    <div class="guessbox ">
+        <h2>guess any number between 0 to 9 <br> enter number</h2>
+        <input type="text" class="inputbox">
+        <button class="btn">sumit</button>
+    </div>
+    <div class="resultbox hidden">
+        <h2 class="message"> congratulation you win</h2>
+        <p class="count"></p>
+        <button class="replay ">Replay</button>
+    </div>
+    
+</body>
+<script src="guess.js"></script>
+</html>

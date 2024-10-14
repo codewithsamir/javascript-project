@@ -1,0 +1,4 @@
+:root {
+  --border-color: #144fc6;
+  --fill-color: #6ab3f8;
+}

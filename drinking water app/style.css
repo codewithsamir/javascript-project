@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: rgb(43, 156, 255);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.top-heading {
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.top-heading h2 {
+  font-weight: normal;
+  font-size: 1.8rem;
+}
+.top-heading h3 {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.big-glass {
+  background-color: #fff;
+  border: 4px solid blue;
+  color: rgb(0, 17, 255);
+  border-radius: 0 0 40px 40px;
+  height: 330px;
+  width: 150px;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.remained {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  transition: 0.3s ease;
+}
+
+.remained span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.remained small {
+  font-size: 12px;
+}
+
+.percentage {
+  background-color: #6ab3f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  height: 0;
+  transition: 0.3s ease;
+}
+
+.last-part {
+  padding-top: 20px;
+  text-align: center;
+}
+.last-part h4 {
+  font-size: 0.7rem;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+.last-part .sm-glass {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
+}
+.last-part .sm-glass .glass {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 40px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(0, 17, 255);
+  color: rgb(43, 156, 255);
+  border-radius: 0 0 12px 12px;
+  background: #fff;
+}
+.last-part .sm-glass .glass .sm-text h5 {
+  font-size: 0.6rem;
+}
+.last-part .sm-glass .glass .sm-text p {
+  font-size: 0.5rem;
+}
+.last-part .sm-glass .glass.full {
+  background: #6ab3f8;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

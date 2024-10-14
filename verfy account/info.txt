@@ -1,0 +1,4 @@
+Verify Your Account
+We emailed you the six digit code to example_123@email.com <br/> Enter the code below to confirm your email address.
+
+This is design only. We didn't actually send you an email as we don't have your email, right?

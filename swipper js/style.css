@@ -1,0 +1,63 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+
+
+}
+.container .box {
+    width: 100%;
+    height: 100vh;
+}
+.container .box img{
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    /* margin-top: 100px; */
+    width: 100%;
+
+    padding: 40px 10px;
+    background: rgb(0, 132, 255);
+}
+.section-container{
+ padding: 50px ;
+ width: 80%;
+ margin: 0 auto;
+ border: 2px solid red;
+ overflow: hidden;
+ background: #fff;
+ 
+ 
+}
+.box-new{
+
+    display: flex;
+ /* height: 100%; */
+ background: #000;
+ 
+
+   width: 100%;
+
+
+
+
+
+   
+}
+section .section-container .box-new .box-1{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+  
+    
+}
+section .section-container .box-new .box-1 img{
+  width: 100%;
+  height: 100%;
+}
